@@ -19,3 +19,9 @@
   opacity: 1; /* Fully opaque */
   transition: transform 0.5s, opacity 0.5s;
 }
+@media (max-width: 481px) {
+  .scrollText {
+    font-size: 1.5rem;
+    left: 16%;
+  }
+}
